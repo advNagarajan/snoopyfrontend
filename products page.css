@@ -1,0 +1,51 @@
+body{
+    background:black;
+}
+.title{
+  display: inline-block;
+  color: white;
+}
+.search_price{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align-last:center;
+  margin-left:250px;
+  margin-right: 250px;
+  width: 1fr;
+  height: 200px;
+  color:black;
+  background-color: yellow;
+  border-radius: 20px;
+}
+.searchbox{ 
+  width:300px;
+  padding-left: 10px ;
+  text-align-last:left;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+}
+.searchbox:hover{
+  cursor: pointer;  
+}
+.best_products{
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.product1{
+  padding-left:30px;
+  margin-left: 20px;
+  background-color:yellow;
+  margin-right: 20px;
+  aspect-ratio: 1 / 1;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
